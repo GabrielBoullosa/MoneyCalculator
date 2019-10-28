@@ -8,6 +8,11 @@ public class Currency {
         return code;
     }
 
+    @Override
+    public String toString() {
+        return "Currency{" + "code=" + code + ", name=" + name + ", symbol=" + symbol + '}';
+    }
+
     public String getName() {
         return name;
     }
