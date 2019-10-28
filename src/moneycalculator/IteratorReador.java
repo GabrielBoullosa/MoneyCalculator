@@ -1,0 +1,6 @@
+
+package moneycalculator;
+
+class IteratorReador {
+    
+}
