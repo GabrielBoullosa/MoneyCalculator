@@ -3,10 +3,10 @@ package moneycalculator;
 import java.util.Iterator;
 
 public class ParseReader<T> implements Iterable<T> {
-    private final IteratorReador reader;
+    private final IteratorReader reader;
     private final Parser<T> parser;
 
-    public ParseReader(IteratorReador reader, Parser<T> parser) {
+    public ParseReader(IteratorReader reader, Parser<T> parser) {
         this.reader = reader;
         this.parser = parser;
     }
@@ -17,15 +17,14 @@ public class ParseReader<T> implements Iterable<T> {
             Iterator<String> iterator = reader.iterator();
             @Override
             public boolean hasNext() {
-                return iterator.hashNext();
+                return iterator.hasNext();
             }
 
             @Override
             public T next() {
-                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                return parser.parse(iterator.next());
             }
-        
-        }
+        };
         
     }
     
