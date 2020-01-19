@@ -1,0 +1,5 @@
+EUR,Euro,€
+GIP,Libra de Gibraltar,£
+EGP,Libra egipcia,£
+HKD,Dolar de Hong Kong,$
+USD,Dolar estadounidense,$

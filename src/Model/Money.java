@@ -1,4 +1,6 @@
-package moneycalculator;
+package Model;
+
+import Model.Currency;
 
 public class Money {
     private double amount;
