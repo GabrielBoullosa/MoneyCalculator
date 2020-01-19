@@ -1,6 +1,4 @@
-
 package moneycalculator;
-
-class IteratorReador {
+public class CSVCurrencyLoader {
     
 }

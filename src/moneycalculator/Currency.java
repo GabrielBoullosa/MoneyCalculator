@@ -4,13 +4,15 @@ public class Currency {
     private String code;
     private String name;
     private String symbol;
+
+    public Currency(String code, String name, String symbol) {
+        this.code = code;
+        this.name = name;
+        this.symbol = symbol;
+    }
+    
     public String getCode() {
         return code;
-    }
-
-    @Override
-    public String toString() {
-        return "Currency{" + "code=" + code + ", name=" + name + ", symbol=" + symbol + '}';
     }
 
     public String getName() {
@@ -21,11 +23,8 @@ public class Currency {
         return symbol;
     }
 
-    public Currency(String code, String name, String symbol) {
-        this.code = code;
-        this.name = name;
-        this.symbol = symbol;
+    @Override
+    public String toString() {
+        return "Currency{" + "code=" + code + ", name=" + name + ", symbol=" + symbol + '}';
     }
-    
-    
 }
