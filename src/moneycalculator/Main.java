@@ -1,7 +1,5 @@
 package moneycalculator;
 
-import Model.Currency;
-import java.util.List;
 
 public class Main {
 

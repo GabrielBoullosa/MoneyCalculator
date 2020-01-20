@@ -1,0 +1,5 @@
+Euro,1.00
+Libra de Gibraltar,0.90
+Libra egipcia,17.51
+Dolar de Hong Kong,8.62
+Dolar estadounidense,1.11
