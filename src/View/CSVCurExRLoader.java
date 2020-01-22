@@ -11,7 +11,6 @@ import java.util.Date;
 import java.util.List;
 
 public class CSVCurExRLoader implements CurrencyLoader, ExchangeRateLoader{
-
     private List<Currency> currencies= new ArrayList<>();
     List<ExchangeRate> rates= new ArrayList<>();
         
